@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Color Picker — TheColorAPI</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Minimal site that queries TheColorAPI and shows a palette for any CSS color input">
+</html>
+  <body>
+    <main class="container">
+      <h1>Simple Color Palette</h1>
+      <p class="lead">Enter a color name or hex (e.g. <code>teal</code>, <code>#24b1e0</code>, <code>rgb(10,20,30)</code>) and click "Get Palette".</p>
+
+      <form id="form" class="form">
+        <input id="colorInput" placeholder="color name or hex" required>
+        <button type="submit">Get Palette</button>
+      </form>
+
+      <div id="status" class="status" aria-live="polite"></div>
+      <div id="palette" class="palette"></div>
+
+      <footer class="foot">Uses <a href="https://www.thecolorapi.com/" target="_blank" rel="noopener">TheColorAPI</a>.</footer>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
