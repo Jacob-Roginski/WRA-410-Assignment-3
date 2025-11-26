@@ -6,5 +6,5 @@ I also used it to make all the css classes to help make it easy to finish all th
 Finally I used AI for some of the JS to make sure I was using the API correctly and to reformatt some of the code, looking at error handling and other things.
 
 Overall, I made a simple site to learn how to make something that can be useful for those in the future, especially making it easy by having 3 options to search based on color.
--------------------------------------
-I intend to use this as a good example and ideas for my final project for when I do most if not all of it myself.
+
+# I intend to use this as a good example and ideas for my final project for when I do most if not all of it myself.
